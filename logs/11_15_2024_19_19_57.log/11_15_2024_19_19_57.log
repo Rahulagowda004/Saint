@@ -1,0 +1,7 @@
+[ 2024-11-15 19:21:17,793 ] 6 root - INFO - cannot import name 'logger' from 'src.logger' (r:\bhagwath_geetha\src\logger.py)
+[ 2024-11-15 19:28:23,735 ] 4 root - ERROR - Argument path_to_yaml of type <class 'str'> to <function read_yaml at 0x000001F708084EA0> does not match annotation type <class 'pathlib.Path'>
+[ 2024-11-15 19:29:02,162 ] 4 root - ERROR - Argument path_to_yaml of type <class 'str'> to <function read_yaml at 0x000001F708084EA0> does not match annotation type <class 'pathlib.Path'>
+[ 2024-11-15 19:34:28,306 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-15 19:34:43,368 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-15 19:35:58,572 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-15 19:36:03,149 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully

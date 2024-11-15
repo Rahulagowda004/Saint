@@ -1,4 +1,3 @@
 .venv/*
-logs/*
 artifacts/db_faiss/index.faiss
 artifacts/db_faiss/index.pkl
