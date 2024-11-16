@@ -1,0 +1,6 @@
+[ 2024-11-16 12:39:42,893 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-16 12:40:12,818 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-16 12:44:24,093 ] 4 root - ERROR - Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+[ 2024-11-16 12:49:16,022 ] 110 faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-11-16 12:49:17,152 ] 112 faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-11-16 12:49:17,227 ] 4 root - ERROR - Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open artifacts\db_faiss\index.faiss\index.faiss for reading: No such file or directory

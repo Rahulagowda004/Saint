@@ -1,4 +1,6 @@
 artifacts_dir: artifacts
 
 data_ingestion:
-  vector_db_path: artifacts/db_faiss
+  db_faiss: artifacts/db_faiss
+  faiss_index: artifacts/db_faiss/index.faiss
+  faiss_pkl: artifacts/db_faiss/index.pkl

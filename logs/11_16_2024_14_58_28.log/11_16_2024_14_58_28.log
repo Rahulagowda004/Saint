@@ -1,0 +1,16 @@
+[ 2024-11-16 14:58:29,330 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-16 14:58:32,266 ] 110 faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-11-16 14:58:32,466 ] 112 faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-11-16 14:58:32,491 ] 4 root - ERROR - Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open artifacts\db_faiss\index.faiss\index.faiss for reading: No such file or directory
+[ 2024-11-16 14:58:41,704 ] 4 root - ERROR - Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open artifacts\db_faiss\index.faiss\index.faiss for reading: No such file or directory
+[ 2024-11-16 15:00:52,858 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-16 15:01:43,023 ] 4 root - ERROR - FAISS.load_local() missing 1 required positional argument: 'embeddings'
+[ 2024-11-16 15:05:01,099 ] 4 root - ERROR - FAISS.load_local() missing 1 required positional argument: 'embeddings'
+[ 2024-11-16 15:37:43,438 ] 4 root - ERROR - FAISS.load_local() missing 1 required positional argument: 'embeddings'
+[ 2024-11-16 15:39:25,687 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 15:39:59,350 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 15:39:59,350 ] 5 root - ERROR - 'NoneType' object is not callable
+[ 2024-11-16 15:42:05,491 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 15:42:05,491 ] 5 root - ERROR - 'FAISS' object is not subscriptable
+[ 2024-11-16 15:42:58,573 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 15:43:28,226 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.

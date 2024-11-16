@@ -3,3 +3,8 @@ python-box
 ensure
 joblib
 pathlib
+python-dotenv
+langchain
+langchain_community
+langchain_groq
+langchain_core
