@@ -1,0 +1,16 @@
+[ 2024-11-17 09:46:41,341 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-17 09:46:51,565 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-11-17 09:46:51,565 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2024-11-17 09:46:56,404 ] 110 faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-11-17 09:46:56,538 ] 112 faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-11-17 09:48:36,202 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 09:48:55,179 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 09:56:54,602 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 09:57:54,579 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 10:01:45,078 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 10:02:12,489 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 10:08:51,236 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 10:09:16,202 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 10:09:49,785 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 10:11:25,671 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-17 10:17:30,920 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

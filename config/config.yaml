@@ -1,6 +1,0 @@
-artifacts_dir: artifacts
-
-data_ingestion:
-  db_faiss: artifacts/db_faiss
-  faiss_index: artifacts/db_faiss/index.faiss
-  faiss_pkl: artifacts/db_faiss/index.pkl

@@ -1,0 +1,50 @@
+[ 2024-11-16 21:45:31,423 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-16 21:45:39,970 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-11-16 21:45:39,970 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[ 2024-11-16 21:46:41,460 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-11-16 21:46:41,460 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2024-11-16 21:47:35,920 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-11-16 21:47:35,920 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2024-11-16 21:47:46,538 ] 110 faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-11-16 21:47:46,656 ] 112 faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-11-16 21:51:35,023 ] 6 root - ERROR - Prompt must accept context as an input variable. Received prompt with input variables: []
+[ 2024-11-16 21:52:33,997 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-11-16 21:52:33,997 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2024-11-16 21:52:54,249 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-11-16 21:52:54,249 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2024-11-16 21:53:45,699 ] 7 root - ERROR - Prompt must accept context as an input variable. Received prompt with input variables: []
+[ 2024-11-16 21:54:16,322 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-16 21:56:18,464 ] 23 root - ERROR - An unexpected error occurred: name 'StrOutputParser' is not defined
+[ 2024-11-16 21:56:24,126 ] 23 root - ERROR - An unexpected error occurred: name 'StrOutputParser' is not defined
+[ 2024-11-16 21:56:33,969 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-16 21:56:33,976 ] 23 root - ERROR - An unexpected error occurred: 1 validation error for Generation
+text
+  Input should be a valid string [type=string_type, input_value={'input': '\n    System: ... of eternal happiness.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+[ 2024-11-16 21:56:53,718 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-16 21:56:53,721 ] 20 root - ERROR - An unexpected error occurred: 1 validation error for Generation
+text
+  Input should be a valid string [type=string_type, input_value={'input': '\n    System: ...ould you like to know?"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+[ 2024-11-16 21:58:04,449 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-16 21:58:04,451 ] 20 root - ERROR - An unexpected error occurred: 1 validation error for Generation
+text
+  Input should be a valid string [type=string_type, input_value={'input': '\n    System: ...lasting joy and peace."}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+[ 2024-11-16 21:58:45,217 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-16 21:58:45,217 ] 20 root - ERROR - An unexpected error occurred: 1 validation error for Generation
+text
+  Input should be a valid string [type=string_type, input_value={'input': '\n    System: ... the provided context."}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+[ 2024-11-16 21:59:14,031 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-16 21:59:14,035 ] 20 root - ERROR - An unexpected error occurred: 1 validation error for Generation
+text
+  Input should be a valid string [type=string_type, input_value={'input': 'what is sadnes...xperience of distress.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+[ 2024-11-16 21:59:31,895 ] 1038 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2024-11-16 21:59:31,895 ] 22 root - ERROR - An unexpected error occurred: 1 validation error for Generation
+text
+  Input should be a valid string [type=string_type, input_value={'input': 'what is sadnes... the provided context.'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+[ 2024-11-16 22:27:28,369 ] 25 root - ERROR - An unexpected error occurred: 'RunnableSequence' object has no attribute 'run'
+[ 2024-11-16 22:30:26,271 ] 25 root - ERROR - An unexpected error occurred: 'RunnableSequence' object has no attribute 'run'

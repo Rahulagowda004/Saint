@@ -1,0 +1,16 @@
+[ 2024-11-16 20:47:19,119 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-11-16 20:51:41,164 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2024-11-16 20:51:41,164 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2024-11-16 20:54:26,941 ] 110 faiss.loader - INFO - Loading faiss with AVX2 support.
+[ 2024-11-16 20:54:27,074 ] 112 faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+[ 2024-11-16 20:55:11,004 ] 7 root - ERROR - The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+[ 2024-11-16 20:55:46,961 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 20:55:48,225 ] 6 root - ERROR - 'NoneType' object is not callable
+[ 2024-11-16 20:56:25,291 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 20:56:25,291 ] 6 root - ERROR - 'NoneType' object is not callable
+[ 2024-11-16 20:59:03,975 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 20:59:03,975 ] 6 root - ERROR - Error loading vector store or performing similarity search: 'NoneType' object is not callable
+[ 2024-11-16 21:00:32,102 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 21:00:32,102 ] 6 root - ERROR - Error loading vector store or performing similarity search: 'NoneType' object is not callable
+[ 2024-11-16 21:00:43,796 ] 217 langchain_community.vectorstores.faiss - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+[ 2024-11-16 21:00:43,796 ] 6 root - ERROR - Error loading vector store or performing similarity search: 'NoneType' object is not callable
