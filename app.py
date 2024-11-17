@@ -13,17 +13,17 @@ load_dotenv()
 
 # Streamlit Sidebar for OpenAI API Key
 with st.sidebar:
-    groq_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
-
+    groq_api_key = st.text_input("Groq API Key", key="chatbot_api_key", type="password")
+    "[Get an Groq API key](https://console.groq.com/keys)"
+    "[Github Profile](https://github.com/Rahulagowda004?tab=repositories)"
 # Streamlit Title
-st.title("💬 Saint")
-st.caption("💫I'm here to help you with all the knowledge provided by Lord Krishna.")
+st.title("🌟 **Saint** - Your Spiritual Guide")
+st.caption("🕉️ **Tap into the divine wisdom of Lord Krishna** to find peace, clarity, and guidance in every step of your journey. 💫 Let's reflect, learn, and grow together! 🙏")
 
 # Initialize LangChain model
 os.environ['GROQ_API_KEY'] = groq_api_key
 if not os.environ['GROQ_API_KEY']:
     st.info("Please add your Groq API key to continue.")
-    "https://console.groq.com/keys"
     st.stop()
 
 # Setup model and prompt
@@ -51,7 +51,7 @@ def get_session_history():
 
 # Initialize session state for messages
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "🌸 **Greetings, dear soul.** How may I assist you on your journey of wisdom and peace today? 🙏"}]
 
 # Display chat messages from session state
 for msg in st.session_state["messages"]:
