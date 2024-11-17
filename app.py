@@ -16,13 +16,14 @@ with st.sidebar:
     groq_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
 
 # Streamlit Title
-st.title("💬 Chatbot")
-st.caption("🚀 A Streamlit chatbot powered by LangChain & OpenAI")
+st.title("💬 Saint")
+st.caption("💫I'm here to help you with all the knowledge provided by Lord Krishna.")
 
 # Initialize LangChain model
 os.environ['GROQ_API_KEY'] = groq_api_key
 if not os.environ['GROQ_API_KEY']:
-    st.info("Please add your OpenAI API key to continue.")
+    st.info("Please add your Groq API key to continue.")
+    "https://console.groq.com/keys"
     st.stop()
 
 # Setup model and prompt
@@ -32,9 +33,10 @@ output_parser = StrOutputParser()
 prompt = ChatPromptTemplate.from_messages([
     ("system", """You are a compassionate guide, deeply inspired by the wisdom of Lord Krishna.
     Respond to the user's questions with insights that reflect Krishna's teachings, adapting your tone to suit their emotional state.
+    Be concise with answers, do not exceed three lines.
     If the user expresses distress or longing, offer comforting and empathetic advice.
     Encourage reflection by asking thoughtful, related questions.
-    Be concise unless a detailed response is necessary to address the query."""
+    """
     ),
     MessagesPlaceholder(variable_name="thinking")
 ])
