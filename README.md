@@ -62,7 +62,7 @@ To make your repository more visually appealing and helpful:
 ### Screenshots
 | **Homepage**                          | **Chat Interaction**                      | **Sidebar Input**                         |
 |---------------------------------------|------------------------------------------|------------------------------------------|
-| ![Homepage](screenshots/homepage.png) | ![Chat Interaction](screenshots/chat_interaction.png) | ![Sidebar Input](screenshots/sidebar_input.png) |
+| ![Homepage](OUTPUT/homepage.png) | ![Chat Interaction](OUTPUT/chat_interface.png) | ![Sidebar Input](OUTPUT/sidebar.png) |
 
 ---
 
