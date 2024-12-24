@@ -1,7 +1,5 @@
 link: https://saint-bot.streamlit.app/
 
-Here’s a README for your project:
-
 ---
 
 # 🌟 **Saint - Your Spiritual Guide**
